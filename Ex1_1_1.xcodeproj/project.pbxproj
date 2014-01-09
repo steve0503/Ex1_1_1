@@ -21,6 +21,7 @@
 		00A9B5B5187E333A005B520C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A9B597187E333A005B520C /* UIKit.framework */; };
 		00A9B5BD187E333A005B520C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A9B5BB187E333A005B520C /* InfoPlist.strings */; };
 		00A9B5BF187E333A005B520C /* Ex1_1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9B5BE187E333A005B520C /* Ex1_1_1Tests.m */; };
+		00A9B5CA187E3440005B520C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9B5C9187E3440005B520C /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00A9B5BA187E333A005B520C /* Ex1_1_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex1_1_1Tests-Info.plist"; sourceTree = "<group>"; };
 		00A9B5BC187E333A005B520C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00A9B5BE187E333A005B520C /* Ex1_1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex1_1_1Tests.m; sourceTree = "<group>"; };
+		00A9B5C8187E3440005B520C /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		00A9B5C9187E3440005B520C /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00A9B5A9187E333A005B520C /* ViewController.m */,
 				00A9B5AB187E333A005B520C /* Images.xcassets */,
 				00A9B59A187E333A005B520C /* Supporting Files */,
+				00A9B5C8187E3440005B520C /* Model.h */,
+				00A9B5C9187E3440005B520C /* Model.m */,
 			);
 			path = Ex1_1_1;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				00A9B5AA187E333A005B520C /* ViewController.m in Sources */,
 				00A9B5A4187E333A005B520C /* AppDelegate.m in Sources */,
 				00A9B5A0187E333A005B520C /* main.m in Sources */,
+				00A9B5CA187E3440005B520C /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
